@@ -26,7 +26,7 @@ groq_api_key = st.secrets.get("groq_api_key")
 os.environ["SERPAPI_API_KEY"] = st.secrets.get("SERPAPI_API_KEY")
 os.environ["HF_TOKEN"] = st.secrets.get("HF_TOKEN")
 st.set_page_config(page_title="Web RAG with Groq & SerpApi", layout="wide")
-st.image("")
+st.image("king-virat-kohli-hd-art-b2ulryvxkkh2bxla (2) (1).jpg")
 st.title("Web RAG: Q&A with Website Content and Google Search")
 
 # Initialize session state and embeddings model
